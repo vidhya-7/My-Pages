@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(12, 32, 69);
+}
+.title{
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    position: relative;
+}
+.container img{
+    width: 100%;
+}
+.img1{
+    transform: rotate(-10deg);
+}
+
+.img2{
+    transform: rotate(5deg);
+}
+
+.img3{
+    transform: rotate(-7deg);
+}
+.img4{
+    transform: rotate(-10deg);
+}
+
+.img5{
+    transform: rotate(5deg);
+}
+
+.img6{
+    transform: rotate(-7deg);
+}
+.img7{
+    transform: rotate(-10deg);
+}
+
+.img8{
+    transform: rotate(5deg);
+}
+.container div{
+    width:300px;
+    color:whitesmoke;
+    margin: 20px;
+    flex-basis: 30%;
+
+}
